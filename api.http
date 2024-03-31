@@ -1,0 +1,31 @@
+
+### GET ALL PRODUCTS
+GET https://l692zls4bi.execute-api.us-east-1.amazonaws.com/prod/products
+
+### GET PRODUCT BY ID
+GET https://l692zls4bi.execute-api.us-east-1.amazonaws.com/prod/products/9547d2da-3971-4714-b627-edc97324fe94
+
+### CREATE PRODUCT
+POST https://l692zls4bi.execute-api.us-east-1.amazonaws.com/prod/products
+Content-Type: application/json
+
+{
+    "productName": "Product 4",
+    "price": "999",
+    "code": "COD0004",
+    "model": "Model 4"
+}
+
+### UPDATE PRODUCT
+PUT https://l692zls4bi.execute-api.us-east-1.amazonaws.com/prod/products/9547d2da-3971-4714-b627-edc97324fe94
+Content-Type: application/json
+
+{
+    "productName": "Product 1",
+    "price": "500",
+    "code": "COD0001 - EDITADO",
+    "model": "Model 1"
+}
+
+### DELETE PRODUCT
+DELETE https://l692zls4bi.execute-api.us-east-1.amazonaws.com/prod/products/d6785817-e58c-4d45-b6d3-f48890e7a079
