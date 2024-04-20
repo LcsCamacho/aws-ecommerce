@@ -9,7 +9,7 @@ import DynamoDB = require("aws-sdk/clients/dynamodb");
 const app = new App();
 
 const env: Environment = {
-  account: "529331413560",
+  account: "PUT ACCOUNT ID HER",
   region: "us-east-1",
 };
 
